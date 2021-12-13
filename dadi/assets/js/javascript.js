@@ -6,6 +6,8 @@ if (userDice > userAI){
     console.log(userDice)
     console.log(userAI)
     alert(`${userName} win (${userDice}), AI lose (${userAI})`)
+}else if (userDice == userAI){
+    alert(`Tie`)
 }else{
     console.log(userDice)
     console.log(userAI)
